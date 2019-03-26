@@ -2,6 +2,8 @@
 
 Classifi is a CSS-In-JS inspired by cssmodules.
 
+NOTE: Classifi is actually taken on npm so I need a new name. Suggestions welcome.
+
 `Landing.styles.js`
 ```javascript
 import classifi from 'classifi';
