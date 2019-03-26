@@ -1,4 +1,4 @@
-### withStyle
+### withStyle 🛹
 
 withStyle is a CSS-In-JS inspired by cssmodules.
 
