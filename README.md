@@ -1,14 +1,14 @@
-### Classifi
+### withStyle
 
-Classifi is a CSS-In-JS inspired by cssmodules.
+withStyle is a CSS-In-JS inspired by cssmodules.
 
-NOTE: Classifi is actually taken on npm so I need a new name. Suggestions welcome.
+NOTE: Open to a new name
 
 `Landing.styles.js`
 ```javascript
-import classifi from 'classifi';
+import withStyle from 'withStyle';
 
-@classifi
+@withStyle
 export default {
     landing: {
         color: 'green',
@@ -44,7 +44,7 @@ ReactDOM.render(<Landing />, document.getElementById("root"))
 
 ## Raison D'etre (Why this exists)
 
-Classifi is designed to be 3 things: 
+withStyle is designed to be 3 things: 
 - Simple
 - Flexible
 - Legible
@@ -75,9 +75,9 @@ export const $primary = '#FF0000';
 `Landing.styles.js`
 ```javascript
 import { $primary } from 'colors.mod.js';
-import classifi from 'classifi';
+import withStyle from 'withStyle';
 
-@classifi
+@withStyle
 export default {
     landing: {
         color: $primary
@@ -90,9 +90,9 @@ export default {
 
 ## 3. Legible
 
-When rendered, any classifi component will has the className {componentname}__{stylename}. If you need to update the styles, you'll know exactly where they are. No more scouring the codebase; just open the component and they'll be there.
+When rendered, any withStyle component will has the className {componentname}__{stylename}. If you need to update the styles, you'll know exactly where they are. No more scouring the codebase; just open the component and they'll be there.
 
-When developing, classifi will get out of your way. There's no componentization, just classnames. Use them with your favorite libraries like `classNames`.
+When developing, withStyle will get out of your way. There's no componentization, just classnames. Use them with your favorite libraries like `classNames`.
 
 ```javascript
 <div className={classNames(styles.title, styles.text)}>Hello World</div>
