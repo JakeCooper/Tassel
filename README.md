@@ -24,11 +24,11 @@ import ReactDOM from 'react-dom';
 
 import styles from 'Landing.styles.js';
 
-class Landing extends React.Component<void, void> {
+class Landing extends React.Component {
     render() {
         return (
             <div className={styles.landing}>
-                <div className={styles.text}>Hello World</div>
+                Hello World
             </div>
         );
     }
