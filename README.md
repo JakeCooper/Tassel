@@ -8,14 +8,15 @@ NOTE: Classifi is actually taken on npm so I need a new name. Suggestions welcom
 ```javascript
 import classifi from 'classifi';
 
-export default classifi({
+@classifi
+export default {
     landing: {
         color: 'green',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
     },
-});
+};
 ```
 
 `Landing.jsx`
@@ -76,11 +77,12 @@ export const $primary = '#FF0000';
 import { $primary } from 'colors.mod.js';
 import classifi from 'classifi';
 
-export default classifi({
+@classifi
+export default {
     landing: {
         color: $primary
     },
-});
+};
 ```
 
 
