@@ -1,6 +1,6 @@
 ### Tophat 🎩
 
-Tophat is a CSS-In-JS inspired by cssmodules.
+Tophat is a CSS-In-JS library inspired by cssmodules.
 
 `Landing.styles.js`
 ```javascript
