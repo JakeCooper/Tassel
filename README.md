@@ -41,7 +41,7 @@ ReactDOM.render(<Landing />, document.getElementById("root"))
 
 ## Raison D'etre (Why this exists)
 
-withStyle is designed to be 3 things: 
+Tophat is designed to be 3 things: 
 - Simple
 - Flexible
 - Legible
@@ -72,9 +72,9 @@ export const $primary = '#FF0000';
 `Landing.styles.js`
 ```javascript
 import { $primary } from 'colors.mod.js';
-import withStyle from 'withStyle';
+import tophat from 'tophat';
 
-@withStyle
+@tophat
 export default {
     landing: {
         color: $primary
@@ -87,9 +87,9 @@ export default {
 
 ## 3. Legible
 
-When rendered, any withStyle component will has the className {componentname}__{stylename}. If you need to update the styles, you'll know exactly where they are. No more scouring the codebase; just open the component and they'll be there.
+When rendered, any Tophat component will has the className {componentname}__{stylename}. If you need to update the styles, you'll know exactly where they are. No more scouring the codebase; just open the component and they'll be there.
 
-When developing, withStyle will get out of your way. There's no componentization, just classnames. Use them with your favorite libraries like `classNames`.
+When developing, Tophat will get out of your way. There's no componentization, just classnames. Use them with your favorite libraries like `classNames`.
 
 ```javascript
 <div className={classNames(styles.title, styles.text)}>Hello World</div>
