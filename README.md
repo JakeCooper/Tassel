@@ -1,22 +1,19 @@
-### withStyle 🛹
+### Tophat 🛹
 
-withStyle is a CSS-In-JS inspired by cssmodules.
-
-NOTE: Open to a new name
+Tophat is a CSS-In-JS inspired by cssmodules.
 
 `Landing.styles.js`
 ```javascript
-import withStyle from 'withStyle';
+import tophat from 'tophat';
 
-@withStyle
-export default {
+export default tophat({
     landing: {
         color: 'green',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
     },
-};
+});
 ```
 
 `Landing.jsx`
