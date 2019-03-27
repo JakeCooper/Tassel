@@ -1,4 +1,4 @@
-### Tophat 🛹
+### Tophat 🎩
 
 Tophat is a CSS-In-JS inspired by cssmodules.
 
