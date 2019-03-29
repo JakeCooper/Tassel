@@ -1,4 +1,4 @@
-### Tassel 🎓
+# Tassel 🎓
 
 Tassel is a lightweight CSS-In-JS library inspired by cssmodules. Write styles, get unique classes which describe your components. All with zero dependecies.
 
