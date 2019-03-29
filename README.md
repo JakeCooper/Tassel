@@ -61,7 +61,7 @@ import Button from 'MyButton';
 
 ## 2. Flexible
 
-Use JavaScript modules to structure your code how you want. All in one file? Styles in different files? Anything goes. Suffix your styles with `styles`, `mod`, `asdf`, it doesn't matter. Define variables, mixins, etc from other files and use them seemlessly just as you would regular JS variables.
+Use JavaScript modules to structure your code how you want. All in one file? Styles in different files? Anything goes. Suffix your styles with `styles`, `mod`, `tassel`, it doesn't matter. Define variables, mixins, etc from other files and use them seemlessly just as you would regular JS variables.
 
 
 `colors.styles.js`
