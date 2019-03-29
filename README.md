@@ -27,7 +27,7 @@ import styles from 'Landing.styles.js';
 class Landing extends React.Component {
     render() {
         return (
-            <div className={styles.landing}> // Renders as Landing_Text
+            <div className={styles.text}> // Renders as Landing_Text
                 Hello World
             </div>
         );
