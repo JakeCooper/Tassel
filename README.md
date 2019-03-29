@@ -7,7 +7,7 @@ Tassel is a CSS-In-JS library inspired by cssmodules. Write styles, get unique c
 import tassel from 'tassel';
 
 export default tassel({
-    landing: {
+    text: {
         color: 'green',
         display: 'flex',
         justifyContent: 'center',
@@ -27,7 +27,7 @@ import styles from 'Landing.styles.js';
 class Landing extends React.Component {
     render() {
         return (
-            <div className={styles.landing}>
+            <div className={styles.landing}> // Renders as Landing_Text
                 Hello World
             </div>
         );
