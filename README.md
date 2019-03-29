@@ -1,13 +1,15 @@
-### Tassel 🎓
+# Tassel 🎓
 
-Tassel is a CSS-In-JS library inspired by cssmodules.
+Tassel is a lightweight CSS-In-JS library inspired by cssmodules. Write styles, get unique classes which describe your components. All with zero dependecies.
+
+### [Try it on CodeSandbox](https://codesandbox.io/s/7kl2vnj9r1)
 
 `Landing.styles.js`
 ```javascript
 import tassel from 'tassel';
 
 export default tassel({
-    landing: {
+    text: {
         color: 'green',
         display: 'flex',
         justifyContent: 'center',
@@ -27,7 +29,7 @@ import styles from 'Landing.styles.js';
 class Landing extends React.Component {
     render() {
         return (
-            <div className={styles.landing}>
+            <div className={styles.text}> // Renders as Landing_Text
                 Hello World
             </div>
         );
@@ -61,23 +63,27 @@ import Button from 'MyButton';
 
 ## 2. Flexible
 
-Use JavaScript modules to structure your code how you want. All in one file? Styles in different files? Anything goes. Suffix your styles with `styles`, `mod`, `asdf`, it doesn't matter. Define variables, mixins, etc from other files and use them seemlessly just as you would regular JS variables.
+Use JavaScript modules to structure your code how you want. All in one file? Styles in different files? Anything goes. Suffix your styles with `styles`, `mod`, `tassel`, it doesn't matter. Define variables, mixins, etc from other files and use them seemlessly just as you would regular JS variables.
 
 
 `colors.styles.js`
 ```javascript
-export const $primary = '#FF0000';
+export const $primary = 'red';
+export const $accent = 'green';
 ```
 
 `Landing.styles.js`
 ```javascript
-import { $primary } from 'colors.mod.js';
+import { $primary, $accent } from 'colors.mod.js';
 import tassel from 'tassel';
 
 export default tassel({
     landing: {
         color: $primary
     },
+    subtext: {
+        color: $accent
+    }
 });
 ```
 
