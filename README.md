@@ -66,8 +66,8 @@ Use JavaScript modules to structure your code how you want. All in one file? Sty
 
 `colors.styles.js`
 ```javascript
-export const $primary = '#FF0000';
-export const $accent = '#00FF00';
+export const $primary = 'red';
+export const $accent = 'green';
 ```
 
 `Landing.styles.js`
