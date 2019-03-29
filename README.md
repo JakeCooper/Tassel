@@ -67,17 +67,21 @@ Use JavaScript modules to structure your code how you want. All in one file? Sty
 `colors.styles.js`
 ```javascript
 export const $primary = '#FF0000';
+export const $accent = '#00FF00';
 ```
 
 `Landing.styles.js`
 ```javascript
-import { $primary } from 'colors.mod.js';
+import { $primary, $accent } from 'colors.mod.js';
 import tassel from 'tassel';
 
 export default tassel({
     landing: {
         color: $primary
     },
+    subtext: {
+        color: $accent
+    }
 });
 ```
 
