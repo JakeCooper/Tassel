@@ -1,12 +1,12 @@
-### Tophat 🎩
+### Tassel 🎓
 
-Tophat is a CSS-In-JS library inspired by cssmodules.
+Tassel is a CSS-In-JS library inspired by cssmodules.
 
 `Landing.styles.js`
 ```javascript
-import tophat from 'tophat';
+import tassel from 'tassel';
 
-export default tophat({
+export default tassel({
     landing: {
         color: 'green',
         display: 'flex',
@@ -41,7 +41,7 @@ ReactDOM.render(<Landing />, document.getElementById("root"))
 
 ## Raison D'etre (Why this exists)
 
-Tophat is designed to be 3 things: 
+Tassel is designed to be 3 things: 
 - Simple
 - Flexible
 - Legible
@@ -72,14 +72,13 @@ export const $primary = '#FF0000';
 `Landing.styles.js`
 ```javascript
 import { $primary } from 'colors.mod.js';
-import tophat from 'tophat';
+import tassel from 'tassel';
 
-@tophat
-export default {
+export default tassel({
     landing: {
         color: $primary
     },
-};
+});
 ```
 
 
@@ -87,9 +86,9 @@ export default {
 
 ## 3. Legible
 
-When rendered, any Tophat component will has the className {componentname}__{stylename}. If you need to update the styles, you'll know exactly where they are. No more scouring the codebase; just open the component and they'll be there.
+When rendered, any Tassel component will has the className {componentname}__{stylename}. If you need to update the styles, you'll know exactly where they are. No more scouring the codebase; just open the component and they'll be there.
 
-When developing, Tophat will get out of your way. There's no componentization, just classnames. Use them with your favorite libraries like `classNames`.
+When developing, Tassel will get out of your way. There's no componentization, just classnames. Use them with your favorite libraries like `classNames`.
 
 ```javascript
 <div className={classNames(styles.title, styles.text)}>Hello World</div>

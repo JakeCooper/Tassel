@@ -1,0 +1,21 @@
+{
+    "name": "tassel",
+    "version": "0.2.0",
+    "description": "tassel is a CSS-In-JS library inspired by cssmodules.",
+    "main": "tassel.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": ""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JakeCooper/classifi.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JakeCooper/classifi/issues"
+    },
+    "homepage": "https://github.com/JakeCooper/classifi#readme"
+}

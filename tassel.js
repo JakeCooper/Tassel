@@ -15,10 +15,12 @@ export default (styles) => {
         style.appendChild(document.createTextNode(''));
         document.head.appendChild(style);
     }
-    const i = document.styleSheets.length - 1;
     const path = [ ...arguments ].find((arg) => {
-        return arg.id && arg.id.includes('tophat');
+        return arg.id && arg.id.includes('tassel');
     }).bundle.arguments[0];
+    if (!path) {
+        path = Math.random().toString(36).slice(2).toUpperCase();
+    }
     const styleFileName = rpop(path, '/');
     const componentName = lpop(styleFileName, '.');
     const cleanStyles = {};
@@ -31,7 +33,7 @@ export default (styles) => {
         let styleString = Object.entries(currStyle).reduce((styleString, [ k, v ]) => {
             return `${styleString}${k}:${v};`;
         }, '');
-        document.styleSheets[i].addRule('.' + newClassname, styleString);
+        document.styleSheets[document.styleSheets.length - 1].addRule('.' + newClassname, styleString);
         cleanStyles[key] = newClassname;
     });
     return cleanStyles;
