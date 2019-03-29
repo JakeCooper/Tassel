@@ -1,6 +1,6 @@
 ### Tassel 🎓
 
-Tassel is a CSS-In-JS library inspired by cssmodules.
+Tassel is a CSS-In-JS library inspired by cssmodules. Write styles, get unique classes which describe your components.
 
 `Landing.styles.js`
 ```javascript
