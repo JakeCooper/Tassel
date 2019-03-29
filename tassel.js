@@ -10,7 +10,6 @@ const lpop = (string, delimeter) => {
 
 const throughArguments = () => {
     // Try to use argument.caller stuff
-    console.log(arguments);
     const argPath = [ ...arguments ].find((arg) => {
         return arg.id && arg.id.includes('tassel');
     });
