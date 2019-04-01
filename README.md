@@ -44,8 +44,9 @@ class Landing extends React.Component {
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<Landing />, rootElement);
-
 ```
+
+![Hello World](https://imgur.com/a/ovgBQ2j)
 
 
 ## Raison D'etre (Why this exists)
