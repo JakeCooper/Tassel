@@ -54,27 +54,6 @@ export default Tassel({
 });
 ```
 
-`Landing.jsx`
-
-```javascript
-import React from "react";
-import ReactDOM from "react-dom";
-
-import styles from "./Landing.styles.js";
-
-class Landing extends React.Component {
-  render() {
-    return (
-      <div className={styles.container}>
-        <div className={styles.text}>Hello, my style name is {styles.text}</div>
-      </div>
-    );
-  }
-}
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(<Landing />, rootElement);
-```
 ### Get This
 <p align="center">
 <img src="https://i.imgur.com/O52Xcuq.png" alt="Tassel"></p>
