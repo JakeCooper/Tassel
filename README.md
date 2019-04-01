@@ -3,12 +3,12 @@
                                                                              alt="Tassel">
 </a></p>
 
-<p align="center"><a href="#" target="_blank" rel="noopener noreferrer">
+<p align="center">
 [![Stable Release](https://img.shields.io/npm/v/formik.svg)](https://npm.im/tassel)
 [![Blazing Fast](https://badgen.now.sh/badge/speed/blazing%20%F0%9F%94%A5/green)](https://npm.im/tassel)
 [![gzip size](http://img.badgesize.io/https://unpkg.com/tassel@latest/src/tassel.js?compression=gzip)](https://unpkg.com/tassel@latest/src/tassel.js?compression=gzip)
 [![license](https://badgen.now.sh/badge/license/MIT)](./LICENSE)
-</a></p>
+</p>
 
 
 Tassel is a lightweight CSS-In-JS library inspired by cssmodules. Write styles, get unique classes which describe your components. All with zero dependencies, zero configuration, and < 1KB GZIPPED.
