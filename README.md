@@ -71,7 +71,8 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<Landing />, rootElement);
 ```
 ### Get This
-![Image](https://i.imgur.com/O52Xcuq.png)
+<p align="center">
+<img src="https://i.imgur.com/O52Xcuq.png" alt="Tassel"></p>
 
 Classnames are automatically generated in the format {componentname}_{stylename} so you'll always know where a style came from. No more hunting down styles in your IDE.
 
