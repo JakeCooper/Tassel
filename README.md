@@ -46,7 +46,7 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<Landing />, rootElement);
 ```
 
-![Hello World](https://imgur.com/a/ovgBQ2j "Hello World")
+![Imgur](https://i.imgur.com/ZVVH7nQ.png)
 
 
 ## Raison D'etre (Why this exists)
