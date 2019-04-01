@@ -1,5 +1,5 @@
 <p align="center"><a href="#" target="_blank" rel="noopener noreferrer"><img width="550"
-                                                                             src="https://i.imgur.com/2RNcPaM.png"
+                                                                             src="https://i.imgur.com/WztPF0R.png"
                                                                              alt="Tassel">
 </a></p>
 
