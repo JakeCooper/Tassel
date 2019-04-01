@@ -16,7 +16,7 @@
 </p>
 
 
-Tassel is an ultra-lightweight (<1KB) CSS-In-JS library inspired by cssmodules. Write styles, get unique classes which describe your components. All with zero dependencies, zero configuration, and < 1KB GZIPPED.
+Tassel is an ultra-lightweight (<1KB) CSS-In-JS library inspired by cssmodules. Write styles, get unique classes which describe your components. All with zero dependencies, zero configuration, and < 1KB GZIPPED. Works with your favorite frameworks.
 
 ## Install
 
