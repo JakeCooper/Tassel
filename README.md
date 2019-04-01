@@ -78,7 +78,7 @@ import { $primary, $accent } from 'colors.mod.js';
 import tassel from 'tassel';
 
 export default tassel({
-    landing: {
+    text: {
         color: $primary
     },
     subtext: {
