@@ -32,6 +32,8 @@ Through Yarn:
 
 ## Getting Started
 
+Note: See the `examples` folder for Framework specific implementations
+
 ### Write This
 
 `Landing.styles.js`
