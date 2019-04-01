@@ -2,7 +2,7 @@
 
 Tassel is a lightweight CSS-In-JS library inspired by cssmodules. Write styles, get unique classes which describe your components. All with zero dependencies.
 
-### [Try it on CodeSandbox](https://codesandbox.io/s/547jpwokpk)
+### Write This
 
 `Landing.styles.js`
 ```javascript
@@ -45,8 +45,10 @@ class Landing extends React.Component {
 const rootElement = document.getElementById("root");
 ReactDOM.render(<Landing />, rootElement);
 ```
-
+### Get This
 ![Imgur](https://i.imgur.com/ZVVH7nQ.png)
+
+### [Try it on CodeSandbox](https://codesandbox.io/s/547jpwokpk)
 
 
 ## Raison D'etre (Why this exists)
