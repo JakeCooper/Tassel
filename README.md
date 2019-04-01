@@ -10,6 +10,19 @@
 [![license](https://badgen.now.sh/badge/license/MIT)](./LICENSE)
 </p>
 
+<p align="center">Fast <b>2kB</b> alternative to Moment.js with the same modern API</p>
+<br>
+<p align="center">
+    <a href="https://unpkg.com/tassel@latest/src/tassel.js"><img
+            src="http://img.badgesize.io/https://unpkg.com/tassel@latest/src/tassel.js?compression=gzip?style=flat-square"
+            alt="Gzip Size"></a>
+    <a href="https://www.npmjs.com/package/tassel"><img src="https://img.shields.io/npm/v/tassel.svg?style=flat-square&colorB=51C838"
+                                                       alt="NPM Version"></a>
+    <a href="https://github.com/iamkun/dayjs/blob/master/LICENSE"><img
+            src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="License"></a>
+    <br>
+</p>
+
 
 Tassel is a lightweight CSS-In-JS library inspired by cssmodules. Write styles, get unique classes which describe your components. All with zero dependencies, zero configuration, and < 1KB GZIPPED.
 
