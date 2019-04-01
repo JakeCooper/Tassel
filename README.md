@@ -32,7 +32,6 @@ Through Yarn:
 
 ## Getting Started
 
-NOTE: The following is a React
 ### Write This
 
 `Landing.styles.js`
