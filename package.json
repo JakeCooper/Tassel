@@ -1,7 +1,7 @@
 {
     "name": "tassel",
-    "version": "0.3.3",
-    "description": "tassel is a CSS-In-JS library inspired by cssmodules.",
+    "version": "1.0.0",
+    "description": "tassel is an ultra-lightweight CSS-In-JS library inspired by cssmodules.",
     "main": "src/tassel.min.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
