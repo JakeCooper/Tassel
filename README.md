@@ -16,7 +16,11 @@
 </p>
 
 
-Tassel is an ultra-lightweight (<1KB) CSS-In-JS library inspired by cssmodules. Write styles, get unique classes which describe your components. All with zero dependencies, zero configuration, and < 1KB GZIPPED. 
+Tassel is an ultra-lightweight CSS-In-JS library inspired by cssmodules. Write styles, get unique classes which describe your components. Tassel works wherever there are classes: React, Vue or even vanillaJS it doesn't matter.
+
+- 📦 Zero dependencies
+- 🔧 Zero configuration 
+- 🔥 < 1KB GZIPPED. 
 
 ## Install
 
@@ -28,7 +32,6 @@ Through Yarn:
 
 ## Getting Started
 
-NOTE: The following is a React
 ### Write This
 
 `Landing.styles.js`
@@ -72,6 +75,7 @@ class Landing extends React.Component {
 const rootElement = document.getElementById("root");
 ReactDOM.render(<Landing />, rootElement);
 ```
+
 ### Get This
 <p align="center">
 <img src="https://i.imgur.com/O52Xcuq.png" alt="Tassel"></p>
