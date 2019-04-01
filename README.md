@@ -16,7 +16,7 @@
 </p>
 
 
-Tassel is an ultra-lightweight CSS-In-JS library inspired by cssmodules. Write styles, get unique classes which describe your components. Tassel works wherever there are classes: React, Vue or even vanillaJS it doesn't matter.
+Tassel is an ultra-lightweight CSS-In-JS library inspired by cssmodules. Write styles, get unique classes which describe your components. Tassel works wherever there are classes: React, Vue or even vanillaJS.
 
 - 📦 Zero dependencies
 - 🔧 Zero configuration 
