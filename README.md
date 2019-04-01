@@ -46,7 +46,7 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<Landing />, rootElement);
 ```
 ### Get This
-![Imgur](https://i.imgur.com/ZVVH7nQ.png)
+![Imgur](https://i.imgur.com/ZVVH7nQ.png) ![Imgur](https://i.imgur.com/fQO1Hzy.png)
 
 ### [Try it on CodeSandbox](https://codesandbox.io/s/547jpwokpk)
 
