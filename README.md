@@ -4,7 +4,11 @@ Tassel is a lightweight CSS-In-JS library inspired by cssmodules. Write styles, 
 
 ### Install
 
+Through NPM:
 `npm install --save tassel`
+
+Through Yarn:
+`yarn add tassel`
 
 ### Write This
 
