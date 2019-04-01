@@ -6,7 +6,7 @@
 <br>
 <p align="center">
     <a href="https://unpkg.com/tassel@latest/src/tassel.js"><img
-            src="http://img.badgesize.io/https://unpkg.com/tassel@latest/src/tassel.js?compression=gzip&style=flat-square&colorB=51C838"
+            src="http://img.badgesize.io/https://unpkg.com/tassel@latest/src/tassel.min.js?compression=gzip&style=flat-square&colorB=51C838"
             alt="Gzip Size"></a>
     <a href="https://www.npmjs.com/package/tassel"><img src="https://img.shields.io/npm/v/tassel.svg?style=flat-square&colorB=51C838"
                                                        alt="NPM Version"></a>
