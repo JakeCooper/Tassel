@@ -3,7 +3,6 @@
                                                                              alt="Tassel">
 </a></p>
 
-<p align="center"> Graduate to Better Styling 🎓</p>
 <br>
 <p align="center">
     <a href="https://unpkg.com/tassel@latest/src/tassel.js"><img
