@@ -3,7 +3,7 @@
                                                                              alt="Tassel">
 </a></p>
 
-<p align="center">A \<1KB CSS-In-JS library inspired by cssmodules 🎓</p>
+<p align="center">A <1KB CSS-In-JS library inspired by cssmodules 🎓</p>
 <br>
 <p align="center">
     <a href="https://unpkg.com/tassel@latest/src/tassel.js"><img
