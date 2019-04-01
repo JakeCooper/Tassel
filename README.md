@@ -3,7 +3,7 @@
                                                                              alt="Tassel">
 </a></p>
 
-<p align="center">A <1KB CSS-In-JS library inspired by cssmodules 🎓</p>
+<p align="center"> An ultra-lightweight (<1KB) CSS-In-JS library inspired by cssmodules 🎓</p>
 <br>
 <p align="center">
     <a href="https://unpkg.com/tassel@latest/src/tassel.js"><img
@@ -17,7 +17,7 @@
 </p>
 
 
-Tassel is a ultra-lightweight CSS-In-JS library inspired by cssmodules. Write styles, get unique classes which describe your components. All with zero dependencies, zero configuration, and < 1KB GZIPPED.
+Tassel is an ultra-lightweight (<1KB) CSS-In-JS library inspired by cssmodules. Write styles, get unique classes which describe your components. All with zero dependencies, zero configuration, and < 1KB GZIPPED.
 
 ## Install
 
