@@ -10,7 +10,7 @@ Through NPM:
 Through Yarn:
 `yarn add tassel`
 
-### Write This
+## Write This
 
 `Landing.styles.js`
 ```javascript
@@ -53,7 +53,7 @@ class Landing extends React.Component {
 const rootElement = document.getElementById("root");
 ReactDOM.render(<Landing />, rootElement);
 ```
-### Get This
+## Get This
 ![Image](https://i.imgur.com/O52Xcuq.png)
 
 Classnames are automatically generated in the format {componentname}_{stylename} so you'll always know where a style came from. No more hunting down styles in your IDE.
