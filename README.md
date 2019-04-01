@@ -17,12 +17,12 @@ Through Yarn:
 
 `Landing.styles.js`
 ```javascript
-import tassel from "tassel";
+import Tassel from "tassel";
 
 const $primary = "papayawhip";
 const $accent = "palevioletred";
 
-export default tassel({
+export default Tassel({
   text: {
     fontSize: "1.5em",
     textAlign: "center",
