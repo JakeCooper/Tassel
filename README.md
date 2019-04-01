@@ -60,6 +60,15 @@ Classnames are automatically generated in the format {componentname}_{stylename}
 
 ### [Try it on CodeSandbox](https://codesandbox.io/s/547jpwokpk)
 
+### Contributing
+
+Please open an issue and then raise a PR related to that issue. I'll try and respond within 24h.
+
+### Liscense
+
+Tassel is licensed under a [MIT License](https://github.com/JakeCooper/Tassel/blob/master/LISCENSE).
+
+### FAQ
 
 ## Raison D'etre (Why this exists)
 
