@@ -46,7 +46,7 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<Landing />, rootElement);
 ```
 ### Get This
-<div style="text-align:center"><img src ="https://i.imgur.com/O52Xcuq.png" /></div>
+![Image](https://i.imgur.com/O52Xcuq.png)
 
 ### [Try it on CodeSandbox](https://codesandbox.io/s/547jpwokpk)
 
