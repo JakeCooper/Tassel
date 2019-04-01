@@ -3,18 +3,11 @@
                                                                              alt="Tassel">
 </a></p>
 
-<p align="center">
-[![Stable Release](https://img.shields.io/npm/v/formik.svg)](https://npm.im/tassel)
-[![Blazing Fast](https://badgen.now.sh/badge/speed/blazing%20%F0%9F%94%A5/green)](https://npm.im/tassel)
-[![gzip size](http://img.badgesize.io/https://unpkg.com/tassel@latest/src/tassel.js?compression=gzip)](https://unpkg.com/tassel@latest/src/tassel.js?compression=gzip)
-[![license](https://badgen.now.sh/badge/license/MIT)](./LICENSE)
-</p>
-
 <p align="center">Fast <b>2kB</b> alternative to Moment.js with the same modern API</p>
 <br>
 <p align="center">
     <a href="https://unpkg.com/tassel@latest/src/tassel.js"><img
-            src="http://img.badgesize.io/https://unpkg.com/tassel@latest/src/tassel.js?compression=gzip?style=flat-square"
+            src="http://img.badgesize.io/https://unpkg.com/tassel@latest/src/tassel.js?compression=gzip&style=flat-square"
             alt="Gzip Size"></a>
     <a href="https://www.npmjs.com/package/tassel"><img src="https://img.shields.io/npm/v/tassel.svg?style=flat-square&colorB=51C838"
                                                        alt="NPM Version"></a>
