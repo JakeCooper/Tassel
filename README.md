@@ -48,6 +48,8 @@ ReactDOM.render(<Landing />, rootElement);
 ### Get This
 ![Image](https://i.imgur.com/O52Xcuq.png)
 
+Classnames are automatically generated in the format {componentname}_{stylename} so you'll always know where a style came from. No more hunting down styles in your IDE.
+
 ### [Try it on CodeSandbox](https://codesandbox.io/s/547jpwokpk)
 
 
