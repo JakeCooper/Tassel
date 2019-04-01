@@ -32,7 +32,7 @@ Through Yarn:
 
 ## Getting Started
 
-Note: See the `examples` folder for Framework specific implementations
+Note: See the `examples` folder for framework specific implementations
 
 ### Write This
 
