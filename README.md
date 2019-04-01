@@ -2,41 +2,48 @@
 
 Tassel is a lightweight CSS-In-JS library inspired by cssmodules. Write styles, get unique classes which describe your components. All with zero dependencies.
 
-### [Try it on CodeSandbox](https://codesandbox.io/s/7kl2vnj9r1)
+### [Try it on CodeSandbox](https://codesandbox.io/s/547jpwokpk)
 
 `Landing.styles.js`
 ```javascript
-import tassel from 'tassel';
+import tassel from "tassel";
+
+const $primary = "papayawhip";
+const $accent = "palevioletred";
 
 export default tassel({
-    text: {
-        color: 'green',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
+  text: {
+    fontSize: "1.5em",
+    textAlign: "center",
+    color: $accent
+  },
+  container: {
+    padding: "4em",
+    background: $primary
+  }
 });
 ```
 
 `Landing.jsx`
 
 ```javascript
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
-import styles from 'Landing.styles.js';
+import styles from "./Landing.styles.js";
 
 class Landing extends React.Component {
-    render() {
-        return (
-            <div className={styles.text}> // Renders as Landing_Text
-                Hello World
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div className={styles.container}>
+        <div className={styles.text}>Hello, my style name is {styles.text}</div>
+      </div>
+    );
+  }
 }
 
-ReactDOM.render(<Landing />, document.getElementById("root"))
+const rootElement = document.getElementById("root");
+ReactDOM.render(<Landing />, rootElement);
 
 ```
 
